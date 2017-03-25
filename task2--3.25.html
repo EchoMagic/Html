@@ -6,18 +6,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>我的第一个网页</title>
 <style type="text/css">
-body{background-color: gray}
-div.header
+*{
+    margin:0;
+    padding:0;
+   
+}
+body{
+    background-color: grey
+}
+.header
 {
-padding:30px;
-margin:0px ;
-color:white;
-background-color:black;}
+    position:inherit;
+    padding:30px;
+    margin:0px ;
+    color:white;
+    background-color:black;}
 img#baidu
 {
 float:left;
-height:80px;
-width:120px;
+height:60px;
+width:100px;
 }
 ul.lal
 {
@@ -31,17 +39,17 @@ display: block;
 width:60px;
 color:white;
 }
-div.mainbox
+.mainbox
 {
     background-color:white;
     border-style:groove;
     border-width:2px;
     padding:5px;
     margin:20px;
-    line-height: 150%
+    line-height: 180%
 }
 
-div.footer{
+.footer{
     color:white;
     font-size:20px;
     text-align:center;
@@ -61,11 +69,33 @@ span#pic{
 img.yh{width:70%;
 height:70% ;
  position:fixted;}
+#last form textarea{
+    border:1px;
+    width:300px;
+    height:50px;
+    vertical-align:top;
+}
+#sub{
+background-color:blue;
+padding:15px;
+margin-top: :10px;
+height:40px;
+width:1200px;
+border-radius:10px;
+border:0px;
+}
+span textarea{
+    display:inline-block;
+    padding:0 0 10px 300px
+    color:grey;
+}
+table{
+    width:300px;
+    height:100px;
+    text-align: center;
+}
 
-form.sub{
-background-color:"blue";
-padding:10px;
-margin:10px;}
+}
 
 </style>
 
@@ -168,7 +198,7 @@ margin:10px;}
 </ol>
 <p>小说List </p>
 <table border="1" >
-<tr bgcolor="black" >
+<tr bgcolor="grey" color="white">
 <th>名称</th>
 <th>作者</th>
 <th>朝代</th>
@@ -183,18 +213,23 @@ margin:10px;}
 <td>蒲松龄</td>
 <td>清朝</td>
 </tr>
+<tr id="zj" bgcolor="grey">
+<td>总计</td>
+<td colspan="2">1000</td>
+</tr>
 </table>
+
 </div>
 
-<div class="mainbox" align="center" >
-
+<div class="mainbox" align="center">
+<h2 align="left">这里以后是一个侧栏，这是侧栏的标题</h2>
 <a href="mailto:825038780@qq.com" text-align:right>Any enqueries, please  don't hesitate to send mail to me</a>
  <form>
  <hr/>
  请输入邮地址邮箱：
  <input type="text" name="mailaddress">
  </form>
- <p>邮箱地址请按要求格式输入</p>
+ <p><span>邮箱地址请按要求格式输入</span></p>
 
  <form >
  用户名：
@@ -205,14 +240,14 @@ margin:10px;}
  请重复输入密码：
  <input type="password"name="password">
  </form>
-<p>密码请为6-16位英文数字</p>
+<p><span>密码请为6-16位英文数字</span></p>
 
 <p>性别</p>
 <form>
 男：
 <input type="radio" checked="checked" name="Sex" value="male" />
 女：
-<input type="radio" checked="checked" name="Sex" value="female" />
+<input type="radio"  name="Sex" value="female" />
 </form>
 <form>
 城市：
@@ -231,10 +266,10 @@ margin:10px;}
 
 <p>
 个人描述：
-<textarea>这是一个多行输入框，输入你的个人描述</textarea>
+<textarea cols="90" rows="6">这是一个多行输入框，输入你的个人描述</textarea>
 </p>
-<form class="sub">
-<input type="button"value="确认提交">
+<form >
+<input id="sub" type="button" value="确认提交">
 </form>
 </div>
 
