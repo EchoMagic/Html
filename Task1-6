@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Task1-6模拟报纸排版</title>
+<link rel="stylesheet" type="text/css" href="base.css">
+</head>
+
+<body >
+<div class="wrap">
+    <div id="header">
+        <div class="headerleft">ife.baidu.com</div> 
+    </div>
+	<div id="mainbody">
+        <div id="upmain">       
+            <div class="left">
+                <div class="up">
+                        <img src="C:\Users\Administrator\Desktop\SHE.jpg" alt="SHE" width="641px" height="191px">
+                </div>
+                <div class="down">
+                       <div class="one">
+                        what
+                        <p>
+                        前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端</p></div>
+                        <div class="three">
+                        how
+                        <p>
+                        前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p></div>
+                        <div class="two">           
+                        when
+                        <p>
+                        前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端</p></div>
+                </div>
+            </div>
+            <div class="right">
+                    <span><p class="word">about</p>
+                     <p class="word">technologe<p></span>
+                     <P font="12px #676767 楷体">about technologe about technologe about technologe</P>
+                     <p>700</p>
+                     <p>3.2</p>
+                     <p>CSS</p>
+                     <p>csscsscsscsscsscss</p>
+            </div>
+        </div>
+
+        
+     
+        <div id="downmain">
+           <div class="la">
+              <p>
+                THE Technologe<br/>
+                of front<br/>
+                前端技术领域</p>
+           
+                <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+                <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+            </div>
+            <div id="pic">
+              <img src="C:\Users\Administrator\Desktop\SHE.jpg" alt="SHE" width="458px"; height="275px">
+              <img src="C:\Users\Administrator\Desktop\SHE.jpg" alt="SHE" width="458px"; height="275px"></div>
+            <div class="fa">
+               <ul>
+                  <li>前端前端前端前端前端前端前端......</li>
+                  <li>前端前端前端前端前端前端前端......</li>
+                  <li>前端前端前端前端前端前端前端......</li>
+               </ul></div>
+            <div class="sao">
+             <p>hello world hello world hello world hello world hello world hello world hello world hello world hello world </p></div>
+        </div>
+    </div>
+    <div id="footer">ife.baidu.com</div>
+</div>    
+
+</body>
+</html>
