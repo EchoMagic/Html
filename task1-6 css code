@@ -1,0 +1,185 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{background-color: grey;}
+.wrap{
+	width: 980px;
+	height:1386px;	
+	margin:0 auto;
+	background: white;
+}
+#header{
+width:892px;
+height:61px;
+border-bottom:2px solid #938e8c;
+margin:0 auto;
+}
+.headerleft{position: relative;
+	width:110px;
+    height:61px;
+    background:#d45d5c;
+    bottom:0px;
+    }
+.ying{
+    position: absolute;
+	bottom: 5px;
+	left:5px;
+	font-size: 12px; 
+	font-family: "黑体";
+	color: white;}  
+    
+#mainbody{width:892px;margin:20px 40px; }
+/*以下是上半部分*/
+#upbody{width:892px;height:550px; overflow:hidden;}
+.left{width:641px; height:301px; float:left;}
+.down{width:641px; font:12px #231815 "宋体"; line-height:20px;}
+
+.one{float:left; width:30%;margin-right: 15px;
+      font:12px "宋体" ;
+      color:#767777  ;
+      line-height: 16px;
+}
+
+.three{float:right; width:25%; margin-left: 10px;   
+  }
+.four{font:12px "Microsoft Yahei";
+    
+      line-height: 16px;}
+.four p span{font:12px "Microsoft Yahei";font-style: italic;color:#cd4a48;}
+
+.two{ margin:20px 10px;
+	  font:12px "Microsoft Yahei"; 
+      color:#767777  ;
+      line-height: 16px;
+     }
+
+.what{font:16px "Microsoft Yahei"; 
+      font-weight:bold ;
+      color:#418c59  ;
+      text-decoration:underline;}
+.when{font:16px "Microsoft Yahei"; 
+      font-weight:bold ;
+      color:#d2994f  ;
+      text-decoration:underline;}
+.how{font:16px "Microsoft Yahei"; 
+      font-weight:bold ;
+      color:#cc7680  ;
+      text-decoration:underline;}
+
+
+.right{width:203px; height:301px;
+       float:right;
+       border-top:2px #cc8091 solid; 
+       margin-left:10px;
+    }
+
+.word{ 
+      font:24px "微软雅黑"; ;
+      color:#000000 ;
+      text-decoration:underline;
+      line-height: 40px;
+     font-variant:small-caps;}
+.word:first-letter{font-size:xx-large;}
+
+.ab{
+       font:12px "楷体";
+       color:#676767;
+       line-height: 10px;}
+.qibai{font:100px "微软雅黑";
+       color:#75b86b;
+       font-style:italic;}
+.abl{width:203px;
+     height:60px;
+     position: relative;}
+
+.point{bottom:-11px;
+	  
+	   color:#75b86b;
+       font:55px "微软雅黑"; 
+       color:#cc8091;
+       position: absolute;}
+.big{ margin-left: 77px;
+	  font:21px "微软雅黑"; 
+      color:#cc8091;
+      position:absolute;
+	  bottom: 0px;
+	  line-height: 16px;}
+
+
+
+	
+/*以下是下半部分*/
+
+#downbody{position: relative; height:650px;margin:20px 0px;}
+/*以下是下半left部分*/
+.downleft{width:415px; float:left; }
+.la{width:415px; border-bottom: 2px solid ;color:#11456b;position: relative;}
+#pica{float:right;margin-left: 10px;clear:left;}
+.the{font:72px "黑体"; font-weight:bolder;  color:#f5e327;font-style:oblique; }
+.worda{font:42px "黑体";;font-weight:bolder; line-height: 30px; color:#11456b ;  }
+.wordb{font:33px "黑体"; font-weight:bolder; color:#11456b ; }
+
+
+/*以下是下半right部分*/
+.downright{ width:458px;float:right; }
+.fa{font-size:12px;font-family: "宋体"; color:#767777;line-height:16px; margin:10px 0px;}
+.fa p:nth-child(2){
+	text-indent: 2em;}
+.fa p:nth-child(3){
+	text-indent: 2em;}
+#qian{font:72px "黑体"; font-weight:bolder;color:#f5e327;float:left;margin:5px;}
+
+#picb{width:458px; height:275px}
+.xia{background-color: #938e8c; width:459px;height:318px;margin-top:20px;position: relative;}
+.sao{margin-top:30px;margin-left:20px;
+     font-size:12px; font-family: "宋体";color:#5a5b5b; 
+     font-style:italic;line-height: 20px;}
+.redleft{
+	position: absolute;
+	bottom: 0px;
+	width: 260px;
+	height: 160px;
+	background-color: rgb(213,93,92);
+}
+.oe span{
+	float: left;
+	font:110px "微软雅黑";
+	color: #ffffff;
+	line-height: 160px;
+	margin-left: 15px;
+}
+.l{
+	width: 2px;
+	height: 86px;
+	background-color: #fff;
+	position: absolute;
+	left: 85px;
+	top: 37px;
+}
+.of {
+	width: 60%;
+	position: absolute;
+	top:50%;
+	left: 100px;
+
+}
+.of p{
+	position: absolute;
+	top: -38px;
+	font: 21px "黑体";
+	color: white;
+	font-style: italic;
+	line-height: 24px;
+}
+.of p:nth-child(2){
+	position: absolute;
+	top: 12px;
+	font: 12px "黑体";
+	color: #fff;
+}
+.xi{font:14px "黑体" ;color:#5a5b5b;font-style:oblique;line-height:16px; 
+     margin:15px;position:absolute;left:260px;top:0px; }
+.no{width:459px;height:160px;bottom:0px;left:0px;position:absolute;}
+#footer{width:892px;height: 61px; border-top:1px solid #938e8c;margin:0 auto; }
+.last{font:12px "黑体" ;color:#d45d5c;float:right;}
