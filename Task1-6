@@ -7,66 +7,104 @@
 <body >
 <div class="wrap">
     <div id="header">
-        <div class="headerleft">ife.baidu.com</div> 
+        <div class="headerleft"> <p class="ying">ife.baidu.com</p></div> 
     </div>
 	<div id="mainbody">
-        <div id="upmain">       
+	
+        <div id="upbody">       
             <div class="left">
                 <div class="up">
-                        <img src="C:\Users\Administrator\Desktop\SHE.jpg" alt="SHE" width="641px" height="191px">
+                        <img src="C:\Users\Administrator\Desktop\SHE.jpg" alt="SHE" width="641px" height="301px">
                 </div>
                 <div class="down">
-                       <div class="one">
-                        what
-                        <p>
-                        前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端</p></div>
+                        <div class="one">
+                           <p class="what">what</p>
+                         <p>
+                          前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端</p></div>
                         <div class="three">
-                        how
-                        <p>
-                        前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p></div>
+                           <p class="how">how</p>
+                          <p class="four">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p >
+                          <p>what......<span>40%</span></p>
+                          <p>what......<span>30%</span></p>
+                          <p>what......<span>30%</span></p></div>
                         <div class="two">           
-                        when
+                           <p class="when">when</p>
                         <p>
-                        前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端</p></div>
+                        前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p></div>
                 </div>
             </div>
             <div class="right">
-                    <span><p class="word">about</p>
-                     <p class="word">technologe<p></span>
-                     <P font="12px #676767 楷体">about technologe about technologe about technologe</P>
-                     <p>700</p>
-                     <p>3.2</p>
-                     <p>CSS</p>
-                     <p>csscsscsscsscsscss</p>
+                     <p class="word">about</p>
+                     <p class="word">technologe</p>
+                     <P class="ab">About technologe about technologe about technologe</P>
+                     <p class="qibai">700</p>
+                     <div class="abl">
+                     <div class="point">3.2</div>
+                     <div class="big">
+                          <p font-size="21px">CSS</p>
+                          <p font-size="12px" margin-top="-10px">csscsscsscsscsscss</p>
+                                                  </div></div>
             </div>
         </div>
 
         
-     
-        <div id="downmain">
-           <div class="la">
-              <p>
-                THE Technologe<br/>
-                of front<br/>
-                前端技术领域</p>
-           
-                <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
-                <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+    
+        <div id="downbody">
+            <div class="downleft">
+
+                    <div class="la" >
+                  
+                        <p class="the">THE <span class="worda" >TECHNOLOGE</span></p>
+                        <p class="worda">OF FRONT </p>
+                        <p class="wordb">前端技术领域</p></div>
+                    <div class="downa">  
+                       <div id="pica">
+                             <img src="C:\Users\Administrator\Desktop\SHE.jpg" alt="SHE" width="180px"; height="200px"></div>
+
+
+                         <div class="fa">
+                            <p><span id="qian">前</span>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+                            <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+                            <p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+                            
+                         </div>
+                        
+                    </div>         
             </div>
-            <div id="pic">
-              <img src="C:\Users\Administrator\Desktop\SHE.jpg" alt="SHE" width="458px"; height="275px">
-              <img src="C:\Users\Administrator\Desktop\SHE.jpg" alt="SHE" width="458px"; height="275px"></div>
-            <div class="fa">
-               <ul>
-                  <li>前端前端前端前端前端前端前端......</li>
-                  <li>前端前端前端前端前端前端前端......</li>
-                  <li>前端前端前端前端前端前端前端......</li>
-               </ul></div>
-            <div class="sao">
-             <p>hello world hello world hello world hello world hello world hello world hello world hello world hello world </p></div>
+            <div class="downright">
+                <div id="picb">
+                    <img src="C:\Users\Administrator\Desktop\SHE.jpg" alt="SHE" width="458px"; height="275px"></div>
+                <div class="xia">
+                
+                     <div class="sao">
+                        <ul>
+                           <li>前端前端前端前端前端前端前端........................前端</li>
+                           <li>前端前端前端前端前端前端前端........................前端</li>
+                           <li>前端前端前端前端前端前端前端........................前端</li>
+                        </ul></div>
+                      <div class="no">
+                        <div class="redleft">
+                               <div class="oe">
+								<span>0</span>
+								<div class="l"></div>	
+							    </div>
+							    <div class="of">
+								<p>ONE TWO  THREE FOUR FIVE</p>
+								<p>hello world hello world hello world</p>
+							     </div>
+                         </div>
+                        
+                       <div class="xi">
+                           <p>hello world hello world hello world hello world hello world hello world hello world hello world hello world </p></div>
+                     </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="footer">ife.baidu.com</div>
+
+    <div id="footer">
+            <p class="last">ife.baidu.com</p>
+    </div>
 </div>    
 
 </body>
